@@ -1,0 +1,197 @@
+{
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.matchBrackets": false,
+  "todo-tree.tree.showScanModeButton": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "dart.flutterCreateOffline": true,
+"dart.previewFlutterUiGuides": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "dart.debugExternalLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "dart.previewLsp": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+},
+
+  "files.autoSave": "onFocusChange",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.sneak": true,
+  "vim.easymotionMarkerooundColor": "#020202",
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<tab>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<S-tab>"],
+      "commands": ["workbench.action.previousEditor"]
+    }
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["<C-j>"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [">"],
+      "after": [">", "g", "v"]
+    },
+    {
+      "before": ["<"],
+      "after": ["<", "g", "v"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.splitEditor"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["revealInExplorer"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "after": ["_"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "after": ["$"]
+    }
+  ],
+  "vim.leader": "<space>",
+
+  "vim.handleKeys": {
+
+    "<C-a>": false,
+    "<C-f>": false,
+    // VS Code new marker @ next occurence
+    "<C-d>": false,
+    // Copy
+    "<C-c>": false,
+    // Cut
+    "<C-x>": false,
+    // Paste
+    "<C-v>": false,
+    "<C-z>": false,
+    "<C-y>": false
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "vim.changeWordIncludesWhitespace": true,
+  "vim.cursorStylePerMode.replace": "underline",
+  "vim.cursorStylePerMode.insert": "line",
+  "vim.cursorStylePerMode.visual": "block-outline",
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.digraphs": {},
+  "vim.highlightedyank.color": "rgba(200, 200, 200, 1)",
+  "vim.highlightedyank.enable": true,
+  "vim.statusBarColors.easymotioninputmode": "",
+  "vim.statusBarColors.visualline": "",
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors.insert": "#d33682",
+  "vim.statusBarColors.normal": "#007acc",
+  "vim.statusBarColors.replace": "#fff500",
+  "vim.statusBarColors.visual": "#5f00af",
+  "vim.statusBarColors.visualblock": "#86592d",
+  "vim.statusBarColors.commandlineinprogress": "#8B4513",
+  "vim.statusBarColors.easymotionmode": "#0000ff",
+  "vim.statusBarColors.searchinprogressmode": "#859900",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#5f00af",
+    "statusBar.noFolderBackground": "#5f00af",
+    "statusBar.debuggingBackground": "#5f00af",
+    "activityBar.background": "#723976",
+    "activityBar.activeBorder": "#15150a",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#15150a",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "activityBar.activeBackground": "#723976"
+  },
+  "vim.insertModeKeyBindingsNonRecursive": [
+  
+  ],
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "switch:command",
+    "branch-create:command"
+],
+"terminal.integrated.defaultProfile.linux": "zsh",
+"editor.inlineSuggest.enabled": true,
+"[html]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"github.copilot.enable": {
+  "*": true,
+  "yaml": true,
+  "plaintext": false,
+  "markdown": true
+},
+"bracket-pair-colorizer-2.depreciation-notice": false,
+"editor.wordWrap": "on",
+"scm.inputFontSize": 15,
+"debug.console.fontSize": 16,
+"workbench.list.smoothScrolling": true,
+"editor.cursorSmoothCaretAnimation": true,
+"editor.smoothScrolling": true,
+"gitlens.defaultDateLocale": null,
+"gitlens.defaultDateFormat": null,
+"workbench.activityBar.visible": false,
+"window.zoomLevel": 3,
+"terminal.integrated.defaultProfile.windows": "Command Prompt",
+"settingsSync.keybindingsPerPlatform": false
+  // }
+}
