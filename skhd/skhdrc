@@ -1,0 +1,83 @@
+# change window focus within space
+cmd - j : yabai -m window --focus south
+cmd - k : yabai -m window --focus north
+cmd - h : yabai -m window --focus west
+cmd - l : yabai -m window --focus east
+
+# rotate layout clockwise
+shift + alt - r : yabai -m space --rotate 270
+
+# flip along y-axis
+shift + alt - y : yabai -m space --mirror y-axis
+
+# flip along x-axis
+shift + alt - x : yabai -m space --mirror x-axis
+
+# toggle window float
+shift + alt - t : yabai -m window --toggle float --grid 4:4:1:1:2:2
+
+# maximize a window
+cmd - f : yabai -m window --toggle zoom-fullscreen
+
+# balance out tree of windows (resize to occupy same area)
+shift + alt - e : yabai -m space --balance
+
+
+# swap windows
+shift + cmd - j : yabai -m window --swap south
+shift + cmd - k : yabai -m window --swap north
+shift + cmd - h : yabai -m window --swap west
+shift + cmd - l : yabai -m window --swap east
+
+
+# move window and split
+shift + alt - j : yabai -m window --warp south
+shift + alt - k : yabai -m window --warp north
+shift + alt - h : yabai -m window --warp west
+shift + alt - l : yabai -m window --warp east
+
+# move window to display left and right
+shift + alt - s : yabai -m window --display west; yabai -m display --focus west;
+shift + alt - g : yabai -m window --display east; yabai -m display --focus east;
+
+#move window to prev and next space
+shift + alt - p : yabai -m window --space prev;
+shift + alt - n : yabai -m window --space next;
+
+# move window to space #
+shift + cmd - 1 : yabai -m window --space 1;
+shift + cmd - 2 : yabai -m window --space 2;
+shift + cmd - 3 : yabai -m window --space 3;
+shift + cmd - 4 : yabai -m window --space 4;
+shift + cmd - 5 : yabai -m window --space 5;
+shift + cmd - 6 : yabai -m window --space 6;
+shift + cmd - 7 : yabai -m window --space 7;
+shift + cmd - 8 : yabai -m window --space 8;
+shift + cmd - 9 : yabai -m window --space 9;
+
+# Resize windows
+ctrl + alt - h : yabai -m window --resize left:-20:0; \
+                  yabai -m window --resize right:-20:0
+ctrl + alt - j : yabai -m window --resize bottom:0:20; \
+                  yabai -m window --resize top:0:20
+ctrl + alt - k : yabai -m window --resize top:0:-20; \
+                  yabai -m window --resize bottom:0:-20
+ctrl + alt - l : yabai -m window --resize right:20:0; \
+                  yabai -m window --resize left:20:0
+
+cmd + shift - q     : yabai -m window --close
+
+# App shortcuts
+cmd - return : /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~
+cmd + shift - p : open -na /Applications/Postman.app
+cmd + shift - g : open -na /Applications/Google\ Chrome.app
+cmd + shift - s : open -na /Applications/Spotify.app
+cmd + shift - z : open -na /Applications/zoom.us.app
+cmd + shift - return : open -na /Applications/Visual\ Studio\ Code.app
+
+cmd + shift - w : yabai -m space --layout "$(yabai -m query --spaces --space | jq -r 'if .type == "bsp" then "stack" else "bsp" end')"
+
+# stop/start/restart yabai
+ctrl + alt - q : brew services stop yabai
+ctrl + alt - s : brew services start yabai
+cmd + shift - c : brew services restart yabai

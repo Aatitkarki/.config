@@ -1,0 +1,57 @@
+{
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1682092460195
+	},
+	"usage": false,
+	"analytics-uuid": "f711af02-e178-41d0-b98c-991360a32a8f",
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "103189068041578398077",
+		"email": "aatitkarki12345@gmail.com",
+		"email_verified": true,
+		"at_hash": "BsNM_FZjsMIoWhhVjl8jXQ",
+		"iat": 1681573578,
+		"exp": 1681577178
+	},
+	"tokens": {
+		"expires_at": 1682154682531,
+		"refresh_token": "1//0gOHEe2-RXYi1CgYIARAAGBASNwF-L9IrBQLm_JQLiwN62hjA6X9FNE1p7MC1_X8OGS5E5IGj24eg3GyFP6XULTpeJSyUFdMmXwo",
+		"scopes": [],
+		"access_token": "ya29.a0Ael9sCNxa8tr9_LfyzotcjcIJ8v4quCYqKPsIqLmEAg_BpGg7f4fEhgxYUz9U7C3OVF3_83321dAFySqeInCv3Z2FhojgRp5P-EDPCX6XtVz_WHy8Tj2yhSChKFTfXpB29cai2boEmpPZP_JcGZVpNsdyqO2BY0rGputfQaCgYKAUUSARASFQF4udJhmTceehHJ68RpEuUEsF-oAg0173",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/cloudplatformprojects.readonly openid https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg2OTY5YWVjMzdhNzc4MGYxODgwNzg3NzU5M2JiYmY4Y2Y1ZGU1Y2UiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTAzMTg5MDY4MDQxNTc4Mzk4MDc3IiwiZW1haWwiOiJhYXRpdGthcmtpMTIzNDVAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJ1UFVpOXgwYXNkS0VIOGxwa1ZLRG1BIiwiaWF0IjoxNjgyMTUxMDgzLCJleHAiOjE2ODIxNTQ2ODN9.q1NvIa5SeZAfu30CkFCsfpIFEmZ0bpMRpx7A9MPPhMcpvV0vBq0rGRkFh7AsZCNWI-gIwB-UiPSUJQG-VuZ8XCc8XIz5WiQd6tanCAbd3WzTcq9kDcSUEQJYdhNY-stA0LLJEkXMaQz5XuZjz5UOgFaKk02B-MjLALCZBKLrj79lDPAs-2-L1tadkmmnyaAiuQhcVm1FnhNmczJe516jcLv52v3DjsijZ2PsIDRHbPSJ52RG2rOX5T2pXWNeVe2keNJWUv8zwBo6NkcDGWaR5to7ZjVMFIl2grv4DdkVnLj7BdxJ_wp7EVrKBxVmR_K-cLcekNM5571U2MnSH848hw"
+	},
+	"adminsdkconfig": {
+		"senior-app-777": {
+			"projectId": "senior-app-777",
+			"databaseURL": "https://senior-app-777-default-rtdb.asia-southeast1.firebasedatabase.app",
+			"storageBucket": "senior-app-777.appspot.com",
+			"locationId": "asia-south1"
+		}
+	},
+	"webconfig": {
+		"senior-app-777": {
+			"projectId": "senior-app-777",
+			"databaseURL": "https://senior-app-777-default-rtdb.asia-southeast1.firebasedatabase.app",
+			"storageBucket": "senior-app-777.appspot.com",
+			"locationId": "asia-south1",
+			"apiKey": "AIzaSyA-RrRUAJwTZ2cQ50Bk8uv8O0QvKgGsXB0",
+			"authDomain": "senior-app-777.firebaseapp.com",
+			"messagingSenderId": "237820689667"
+		}
+	},
+	"activeProjects": {
+		"/Users/aatitkarki/Programming/web/backend/senior-shuffle-backend": "senior-app-777"
+	}
+}
