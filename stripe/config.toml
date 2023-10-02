@@ -1,0 +1,13 @@
+color = ''
+project-name = 'default'
+[default]
+account_id = 'acct_1JwKTGLgaurhlhRL'
+device_name = 'Sureshs-MacBook-Pro.local'
+display_name = 'diolog.com.au'
+live_mode_api_key = 'rk_live_***********************************************************************************************aDBD'
+live_mode_key_expires_at = '2023-11-09'
+live_mode_pub_key = 'pk_live_51JwKTGLgaurhlhRL7HQTpn3x7ZHb8VjbefQLDJvRtla0TwErzdnsuYEcYsP89a53rCWFR2gxbcROFRMEP3l3aoYT00Sw1qJtfg'
+test_mode_api_key = 'rk_test_51JwKTGLgaurhlhRLbTipOaQZh69wTjCWRUSv0NzrGgNnlUl51N9qIFntekgjJ1jWYmBlfEP95guqNpB9u7laXMf600AxckmVZn'
+test_mode_key_expires_at = '2023-11-09'
+test_mode_pub_key = 'pk_test_51JwKTGLgaurhlhRLpoi3mgaiphPuIZy7Ofv0AVVKaeztUNPP7sJEvwrXZF6TyhcPY1yxx5q03jrZIBEvvpT8uxck00eLYuMb9L'
+

@@ -44,6 +44,21 @@ function gpush() {
     git push origin $1;
 }
 
+# Usage: gpc
+# Example: gpc 
+function gpc() {
+    current_branch=$(git symbolic-ref --short HEAD 2>/dev/null)
+    
+    if [ -z "$current_branch" ]; then
+        echo "Not on any branch."
+        return 1
+    fi
+    
+    git add .
+    git push origin "$current_branch"
+}
+
+
 # Usage: gbranch <branch>
 # Example: gbranch new-feature
 function gbranch() {
