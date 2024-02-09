@@ -71,7 +71,6 @@ cmd + shift - q     : yabai -m window --close
 # cmd - return : /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~
 
 cmd - return : open -na Warp
-cmd + shift - p : open -na /Applications/Postman.app
 cmd + shift - s : open -na /Applications/Spotify.app
 cmd + shift - g : open -na /Applications/Arc.app
 cmd + shift - z : open -na /Applications/zoom.us.app
